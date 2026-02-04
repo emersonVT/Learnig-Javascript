@@ -126,6 +126,7 @@ console.log(`Can access premium? ${canAccessPremium}`); // True
 // 5. COMPARISON OPERATORS (USEFUL ADDITION)
 // ============================================================================
 console.log('\n===== COMPARISON OPERATORS =====');
+// Falsy values: 0, '', undefined, null, NaN
 
 console.log(`Equality: 5 == '5' → ${5 == '5'}`);    // true (type coercion)
 console.log(`Strict equality: 5 === '5' → ${5 === '5'}`);  // false (no coercion)
